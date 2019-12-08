@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: simple-client #contextId 可以理解为应用名
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*" #暴露的endpoint *表示所有 在yml中*需要双引号括起来

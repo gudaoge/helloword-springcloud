@@ -1,0 +1,8 @@
+#引导上下文配置文件
+spring:
+  config:
+    name: configserver #spring.config.name这个参数是springboot里面的，用于加载配置文件
+#    location: classpath:/myApplication,/config/default.properties 类似上面，相比而言功能更强
+  cloud:
+    discovery:
+      enabled: true
